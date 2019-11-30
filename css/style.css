@@ -19,3 +19,7 @@
     padding: 8px;
     border-bottom: 1px orange solid;
 }
+
+.component.demo{
+    padding: 50px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document bootstrap</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.0.0-beta.2/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/jquery@3.2.1/dist/jquery.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/bootstrap@4.0.0-beta.2/dist/js/bootstrap.js" charset="utf-8"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="component demo">
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <h4>Alert</h4>
+            hello~ <a href="#" class="alert-link"> see more.</a>
+            <button class="close" data-dismiss="alert">
+                &times;
+            </button>
+        </div>
+        <button class="btn btn-danger close-alert">Close</button>
+
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                <span class="sr-only">Close</span>
+            </button>
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        </div>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <strong>111111</strong> 
+        </div>
+
+        <div class="alert alert-secondary" role="alert">
+            <strong>secondary</strong>
+        </div>
+        
+        <div class="alert alert-info" role="alert">
+            <strong>info</strong>
+        </div>
+
+        <i class="fa fa-angle-right" aria-hidden="true">1111111</i>
+
+        <div class="alert alert-light" role="alert">
+            <strong>light</strong>
+        </div>
+
+        <div class="alert alert-dark" role="alert">
+            <strong>dark</strong>
+        </div>
+        <script>
+          $(".alert").alert();
+        </script>
+
+        <div class="alert alert-danger" role="alert">
+            <strong>Warning!</strong> <a href="#" class="alert-link">ssss</a>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+          <h4 class="alert-heading">ssssss</h4>
+          <p>bbbbb</p>
+          <p class="mb-0">dddd</p>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
