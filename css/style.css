@@ -1,0 +1,21 @@
+.container.demo{
+    background-color: blueviolet;
+    height: 100vh;
+    color: white;
+    -webkit-font-smoothing:antialiased;
+}
+
+.container.demo .row{
+    background-color: turquoise;
+    border-bottom: tomato 1px solid;
+    height: 70vh;
+}
+
+.container.demo .row > div > span {
+    background-color: blue;
+    color: blueviolet;
+    font-size: 32px;
+    display: block;
+    padding: 8px;
+    border-bottom: 1px orange solid;
+}
